@@ -1,0 +1,49 @@
+.display-tasks {
+  background-color: #fbfbfb;
+  color: #838383;
+  margin: 55px 80px;
+  font-weight: 600;
+}
+
+.display-tasks h2 {
+  text-align: center;
+}
+
+hr {
+  width: 50px;
+  margin: 35px auto;
+  border: 1px solid #ebebeb;
+}
+
+.tasks-list li {
+  margin: 0px;
+  list-style: none;
+  padding: 5px;
+}
+
+.task {
+  margin: 30px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.task-button {
+  padding: 7px;
+  border: 1px solid #8383839f;
+  font-weight: inherit;
+  height: 40px;
+  width: 100px;
+  margin: 5px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+.updated-task {
+  background-color: inherit;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 2px;
+  cursor: pointer;
+}
